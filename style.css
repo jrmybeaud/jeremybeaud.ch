@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #3498DB;
+}
+.msg {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+h1, h2 {
+    color: #ECF0F1;
+}
+.social {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10%;
+    width: 100%;
+}
+#twitter {
+    background: url(twitter.svg);
+    background-repeat: no-repeat;
+}
+#facebook {
+    background: url(facebook.svg);
+    background-repeat: no-repeat;
+}
+#instagram {
+    background: url(instagram.svg);
+    background-repeat: no-repeat;
+}
+.social a {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 0 20px;
+}
